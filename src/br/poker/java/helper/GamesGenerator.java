@@ -8,11 +8,11 @@ import br.poker.java.model.Card;
 import br.poker.java.model.Deck;
 import br.poker.java.model.PokerHand;
 
-public class GeneratorGame {
+public class GamesGenerator {
 	
 	private Deck deck;
 
-	public GeneratorGame(Deck deck) {
+	public GamesGenerator(Deck deck) {
 		this.deck = deck;
 	}
 

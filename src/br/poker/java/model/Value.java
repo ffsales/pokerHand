@@ -1,16 +1,17 @@
 package br.poker.java.model;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
 
-public enum Value {
+public enum Value implements Comparator {
 	
 	DOUNCE(2),THREE(3),FOUR(4),FIVE(5),SIX(6),SEVEN(7),EIGHT(8),NINE(9),
 	TEN(10),JACK(11),QUEEN(12),KING(13),ACE(14);
 	
-	private int value;
+	private Integer value;
 	
-	public int getValue(){
+	public Integer getValue(){
 		return this.value;
 	}
 	
@@ -36,5 +37,11 @@ public enum Value {
 		all.add(ACE);
 		
 		return all;
+	}
+
+	@Override
+	public int compare(Object obj1, Object obj2) {
+		
+		return ((Value)obj1).getValue().compareTo(((Value)obj2).getValue());
 	}
 }

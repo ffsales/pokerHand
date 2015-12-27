@@ -32,7 +32,7 @@ public class PokerHand {
 		for (Card card : cards) {
 			message.append(card.toString());
 			if(!cards.get(cards.size() - 1).equals(card)){
-				message.append(" - ");
+				message.append(" ");
 			}
 		}
 		

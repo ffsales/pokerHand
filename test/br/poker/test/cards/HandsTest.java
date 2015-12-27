@@ -9,7 +9,7 @@ import br.poker.java.helper.GamesGenerator;
 import br.poker.java.model.Deck;
 import br.poker.java.model.PokerHand;
 
-public class HandlerHandsTest {
+public class HandsTest {
 
 	@Test
 	public void numberOfCardsOfThePokerHandTest() {

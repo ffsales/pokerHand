@@ -29,7 +29,7 @@ public class GamesGenerator {
 		
 		for(int i = 0; i < 5; i++){
 
-			int allCards = 52 - i;
+			int allCards = deck.getCards().size();
 			int cardNumber = random.nextInt(allCards);
 			
 			cards.add(deck.getCards().get(cardNumber));

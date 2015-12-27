@@ -13,7 +13,7 @@ import br.poker.java.model.Deck;
 import br.poker.java.model.Suit;
 import br.poker.java.model.Value;
 
-public class HandlerCardsTest {
+public class CardsTest {
 
 	@Test
 	public void numberOfCardsTest() {

@@ -101,5 +101,11 @@ public class ValidatorHand {
 		return isSequence;
 	}
 
+	public Map<Value,Integer> getValues(){
+		return this.values;
+	}
 	
+	public Map<Suit,Integer> getSuits(){
+		return this.suits;
+	}
 }

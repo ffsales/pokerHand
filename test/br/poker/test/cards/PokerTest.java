@@ -14,7 +14,7 @@ import br.poker.java.model.PokerHand;
 import br.poker.java.model.Suit;
 import br.poker.java.model.Value;
 
-public class HandlerPoker {
+public class PokerTest {
 
 	@Test
 	public void handPokerPairsTest() {
